@@ -1,0 +1,11 @@
+applications:
+- path: target/TomcatHelloWorldApp.war
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: tomcattest5
+  host: tomcattest5
+  disk_quota: 1024M
+  services:
+  - Monitoring and Analytics-ie
+  buildpack: java_buildpack
